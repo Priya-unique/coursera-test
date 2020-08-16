@@ -21,7 +21,7 @@ h1 {
 }
 
 
-.row{
+.box{
   width: 100%;
   overflow: none;
 }
@@ -92,7 +92,7 @@ h1 {
 @media (min-width: 0px) and (max-width:767px) 
 {
   .col-sm-12 {
-  	float: left;
+   float: left;
     width: 100%;
   }
   .content-name{
