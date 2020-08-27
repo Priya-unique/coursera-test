@@ -1,3 +1,13 @@
+body {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1a1a1a;
+    background-color: #599e4b;
+}
+
+
+/** HEADER **/
+
 #header-nav {
     background-color: #c98715;
     border-radius: 0;
@@ -53,17 +63,34 @@
     border: 1px solid #7d1913;
 }
 
-div h2{
-	font-weight: bold;
-	text-align: center;
-	font-family: italic,cursive;
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
 }
-#box h3{
-	text-align: center;
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
-#box{
-	background-color: grey;
-	padding:10px 10px 10px 10px;
-	margin: 40px;
-	box-sizing: border-box;
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
 }
+
+#main-section {
+    background-color: #82d06b;
+    box-shadow: 0 0 50px #0f5900;
+    padding: 30px;
+}
+
+/** END HOME PAGE **/
