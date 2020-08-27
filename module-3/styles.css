@@ -30,23 +30,22 @@
 }
 
 #nav-list {
-    background-color: #e4af34;
+    background-color: black;
 }
 
 #nav-list a {
     font-weight: bolder;
-    color: #282828;
+    color: white;
     font-size: 1.2em;
 }
 
-#nav-list a:hover {
-    color: #202020;
-    background-color: #fce29e;
-}
 div h2{
 	font-weight: bold;
 	text-align: center;
 	font-family: italic,cursive;
+}
+#box h3{
+	text-align: center;
 }
 #box{
 	background-color: grey;
