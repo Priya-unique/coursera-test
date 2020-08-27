@@ -5,7 +5,7 @@
 }
 #header-nav button{
 	margin: 22px;
-	float:left;
+	float:right;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: white;
