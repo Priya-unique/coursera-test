@@ -5,6 +5,7 @@
 }
 #header-nav button{
 	margin: 22px;
+	float:left;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
 	background-color: white;
@@ -26,9 +27,7 @@
 }
 .navbar-brand a:hover {
     text-decoration: none;
-    text-shadow: 1px 1px 1px #fe9797;
 }
-
 #nav-list {
     background-color: black;
 }
@@ -37,6 +36,9 @@
     font-weight: bolder;
     color: white;
     font-size: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #7d1913;
 }
 
 div h2{
