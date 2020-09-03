@@ -3,4 +3,5 @@
   var hellospeak= function(name){
   console.log(speakWord + " " + name);
 }
+   window.hellospeak=hellospeak;
 })(window);
