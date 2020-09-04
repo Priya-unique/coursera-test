@@ -7,4 +7,5 @@
      } else {
         window.helloSpeaker.speak(names[i]);
      }
+     }      
 })(window);
