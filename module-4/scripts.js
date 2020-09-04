@@ -5,5 +5,5 @@ for (var i=0;i<names.length;i++) {
   } else {
       var speakWord = "Hello";
   }
-  console.log(speakWord + " " + name[i]);
+  document.write(speakWord + " " + name[i]);
 }
